@@ -70,9 +70,6 @@ const NavBar = ({ users, getUserByID, getPostsByUser }) => {
                     CHARACTER
                   </Nav.Link>
                   <Nav.Link href="/News" className="font">
-
-                  <Nav.Link href="" className="font">
-
                     NEWS
                   </Nav.Link>
                   <Nav.Link href="" className="font">
@@ -112,9 +109,7 @@ const NavBar = ({ users, getUserByID, getPostsByUser }) => {
               </Offcanvas.Body>
             </Navbar.Offcanvas>
 
-            <button id="button" className="game">
-              Play Now
-
+       
             {/* button */}
             <button id="button" className="game"  onClick={() => {
                     
